@@ -1,0 +1,74 @@
+.work {
+    .container {
+        width: 120.5rem;
+        padding-top: 5.4rem;
+        padding-bottom: 5.4rem;
+    }
+}
+
+.work__title {
+    padding-bottom: 1.1rem;
+}
+
+.work__description {
+    width: 77.3rem;
+    @include font(300, 1.8rem, 116.67%);
+    text-align: center;
+    margin: 0 auto;
+
+    br:last-child {
+        display: none;
+    }   
+}
+
+.work__wrapper {
+    margin-top: 7rem;
+}
+
+.work__cards {
+    margin-bottom: 1.8rem;
+    @include dflex-jcsb;
+}
+
+.work__card {
+    @include dflex-column;
+    width: 14.7rem;
+    height: 14.8rem;
+}
+
+.work__img {
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: 2.4rem;
+}
+
+.work__img--first {
+    width: 7rem;
+    height: 7.3rem;
+    margin-bottom: 2rem;
+}
+
+.work__img--fifth {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 4.4rem;
+}
+
+.work__text {
+    text-align: center;
+    @include font(500, 1.6rem, 116.67%);
+}
+
+.work__sausage--desktop {
+    display: block;
+}
+
+.work__sausage--mobile {
+    display: none;
+}
+
+.work__sausage {
+    width: 116.1rem;
+    height: 2.6rem;
+    @include m0a;
+}

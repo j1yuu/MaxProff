@@ -1,0 +1,11 @@
+.title {
+    @include font(700, 4.2rem, 116.67%);
+    color: #171616;
+    text-align: center;
+}
+
+@media (max-width: 48em) {
+    .title {
+        font-size: 3.6rem;
+    }
+}

@@ -1,0 +1,72 @@
+@media (max-width: 48em) {
+    .work__sausage--desktop {
+        display: none;
+    }
+
+    .work__sausage--mobile {
+        display: block;
+    }
+
+    .work {
+        .container {
+            width: 100%;
+            padding-top: 4.4rem;
+            padding-bottom: 0;
+            padding-right: 1.8rem;
+        }
+    }
+
+    .work__title {
+        padding-bottom: 2.5rem;
+    }
+
+    .work__description {
+        width: 37.1rem;
+        font-size: 1.6rem;
+
+        br:last-child {
+            display: block;
+        }
+    }
+
+    .work__wrapper {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5.6rem;
+        justify-content: space-between;
+    }
+
+    .work__cards {
+        flex-direction: column;
+        width: 30rem;
+    }
+
+    .work__card {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 4.6rem;
+    }
+
+    .work__img {
+        width: 4.6rem;
+        height: 4.6rem;
+        margin-bottom: 0;
+    }
+
+    .work__text {
+        text-align: start;
+        width: 81.33%;
+    }
+   
+    .work__sausage {
+        width: 2.9rem;
+        height: 80.4rem;
+        margin: 0 0 0 3.8rem;
+        order: -1;
+
+        img {
+            margin: 0;
+        }
+    }
+}

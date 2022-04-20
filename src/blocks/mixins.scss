@@ -1,0 +1,26 @@
+@mixin font($fw, $fsz, $lh) {
+    font-weight: $fw;
+    font-size: $fsz;
+    line-height: $lh;
+}
+
+@mixin dflex {
+    display: flex;
+    align-items: center;
+}
+
+@mixin dflex-jcsb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin dflex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin m0a {
+    margin: 0 auto;
+}

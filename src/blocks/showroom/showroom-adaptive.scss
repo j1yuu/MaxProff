@@ -1,0 +1,52 @@
+@media (max-width: 48em) {
+    .showroom {
+        .container {
+            padding: 5.6rem 1.5rem 2.5rem;
+        }
+    }
+    
+    .showroom__title {
+        width: 100%;
+        margin-bottom: 2.3rem;
+
+        br {
+            display: block;
+        }
+    }
+
+    .showroom__cards {
+        flex-direction: column;
+        // justify-content: baseline;
+
+        .showroom__card {
+            width: 100%;
+            height: fit-content;
+        }
+
+        padding: 3.2rem 6.2rem 4.3rem 2rem;
+    }
+
+    .showroom__card {
+        display: flex;
+
+        &:not(:nth-child(4)) {
+            margin-bottom: 2.3rem;
+        }
+
+        &:nth-child(4) {
+            order: 10;
+        }
+    }
+
+    .showroom__img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .showroom__description {
+        font-size: 1.6rem;
+        margin-left: 1.4rem;
+        width: 25.6rem;
+    }
+}
+
