@@ -1,0 +1,46 @@
+@media (max-width: 48em) {
+    .prices {
+        .container {
+            padding-top: 1rem;
+        }
+    }
+
+    .prices__title {
+        padding-left: 1.7rem;
+    }
+
+    .prices__swiper {
+        width: 98.3vw;
+        overflow: hidden;
+    }
+    
+    .prices__wrapper {
+        padding-bottom: 2.5rem;
+        .slick-arrow {
+            display: none !important;
+        }
+
+        .slick-list {
+            .slick-track {
+                padding-bottom: 2rem;
+                width: max-content !important;
+                
+                .slick-slide {
+                    // margin-right: 4rem;
+                    transition: margin .4s;
+                }
+        
+                .slick-current {
+                    // margin-left: 7rem !important;
+                }
+            }
+        }
+    }
+    
+    .prices-card { 
+        &:not(:last-child) {
+            // margin: 0 1.25rem;
+            margin-right: 2.5rem;
+        }
+    }
+}

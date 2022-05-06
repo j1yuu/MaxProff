@@ -1,0 +1,43 @@
+@media (max-width: 48em) {
+    .channel {
+        .container {
+            padding-top: 4.5rem;
+            padding-bottom: 7.5rem;
+            width: 100vw;
+        }
+    }
+
+    .channel__title {
+        padding-bottom: 3.1rem;
+    }
+
+    .channel__asfor {
+        height: 22.6rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .channel__afslide {
+        height: 22.6rem !important;
+    }
+
+    .channel__slide {
+        height: 8rem;
+    }
+
+    .channel__wrap {
+        width: 11.7rem;
+        height: 8rem;
+
+        img {
+            object-fit: cover;
+        }
+    }
+
+    .channel__slider {
+        padding-bottom: 5.8rem;
+        display: block;
+        .slick-dots {
+            bottom: -0.3rem;
+        }
+    }
+}

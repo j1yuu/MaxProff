@@ -1,0 +1,18 @@
+.button-providers {
+    width: 20.5rem;
+    @include font(700, 1.8rem, 116.67%);
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 48em) {
+    .button-providers {
+        margin-left: 16.6rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .button-providers {
+        width: 100%;
+    }
+}

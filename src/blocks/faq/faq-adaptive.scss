@@ -1,0 +1,59 @@
+@media (max-width: 48em) {
+    .faq {
+        .container {
+            padding: 4.7rem 2.1rem 5.3rem .9rem;
+        }
+    }
+
+    .faq__title {
+        padding-bottom: 1.8rem;
+    }
+
+    .faq__about {
+        font-size: 1.8rem;
+        padding-right: 0.5rem;
+        margin-bottom: .4rem;
+    }
+
+    .faq__tabs {
+        padding-top: 2rem;
+    }
+
+    .faq__tab {
+        width: 100%;
+        padding: .3rem 1rem 0rem .8rem;
+        height: max-content;
+    }
+
+    .faq__what {
+        width: 44rem;
+        font-size: 1.6rem;
+    }
+
+    .faq__img {
+        margin-right: 1.1rem;
+    }
+
+    .faq__answer {
+        font-size: 1.6rem;
+    }
+
+    .faq__active {
+        margin-top: 1rem;
+        padding-top: 0.5rem;
+        margin-bottom: 0.6rem;
+
+        .faq__question {
+            .faq__img {
+                padding: 0.5rem;
+                margin-left: -.5rem;
+                margin-top: -1.6rem;
+            }
+        }
+
+        .faq__answer {
+            padding-left: 3.5rem;
+            padding-top: 1.3rem;
+        }
+    }
+}

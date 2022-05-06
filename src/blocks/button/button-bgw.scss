@@ -1,0 +1,12 @@
+.button-bgw {
+    border: .1rem solid #6CAC3D;
+    transition: background-color .2s, color .2s;
+    color: #6CAC3D;
+}
+
+@media (min-width: 48em) {
+    .button-bgw:hover {
+        background-color: #6CAC3D;
+        color: #ffffff;
+    }
+}

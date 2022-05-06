@@ -1,0 +1,54 @@
+@media (max-width: 48em) {
+    .feedback {
+        .container {
+            padding: 5rem 1.5rem 4.1rem;
+        }
+    }
+
+    .feedback__title {
+        padding-bottom: 3.1rem;
+        padding-right: 1rem;
+    }
+
+    .feedback__wrapper {
+        display: flex;
+        position: relative;
+
+        .slick-arrow {
+            display: none !important;
+        }
+    }
+
+    .feedback__slider {
+        margin-left: -0.5rem;
+    }
+    
+    .feedback__slide {
+        margin-bottom: 4.9rem;
+    }
+
+    .feedback__video {
+        height: 23.385rem;
+    }
+
+    .feedback__description {
+        padding: 3.115rem .3rem 2.3rem;
+    }
+
+    .feedback__type {
+        color: #B23533;
+    }
+
+    .feedback__location {
+        align-items: start;
+    }
+
+    .feedback__img {
+        img:first-child {
+            display: none;
+        }
+        img:last-child {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.channel {
+    .container {
+        width: 120.4rem;
+        padding-top: 7.1rem;
+        padding-bottom: 8.8rem;
+    }
+}
+
+.channel__title {
+    padding-bottom: 4.9rem;
+}
+
+@media (min-width: 48em) {
+    .channel__title {
+        padding-right: 4rem;
+    }
+
+    .channel__slider {
+        display: none;
+    }
+    
+    .channel__asfor {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+        gap: 1.9rem
+    }
+    
+    .channel__afslide {
+        width: 38.6rem;
+        height: 22.6rem;
+
+        &:nth-child(1), &:nth-child(4) {
+            width: 39.4rem;
+        }
+    }
+}

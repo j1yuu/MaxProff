@@ -22,7 +22,7 @@
 }
 
 .work__wrapper {
-    margin-top: 7rem;
+    margin-top: 7.4rem;
 }
 
 .work__cards {
@@ -32,8 +32,23 @@
 
 .work__card {
     @include dflex-column;
-    width: 14.7rem;
+    width: 13.7rem;
     height: 14.8rem;
+
+    &:nth-child(2) {
+        .work__text {
+            width: 9rem;
+            margin-left: -2rem;
+        }
+    }
+
+    &:nth-child(4) {
+        padding-left: 2rem;
+    }
+
+    &:last-child {
+        padding-left: 2.2rem;
+    }
 }
 
 .work__img {
@@ -46,12 +61,15 @@
     width: 7rem;
     height: 7.3rem;
     margin-bottom: 2rem;
+    margin-left: -1.7rem;
 }
 
 .work__img--fifth {
     width: 5rem;
     height: 5rem;
-    margin-bottom: 4.4rem;
+    margin-bottom: 3.4rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
 }
 
 .work__text {

@@ -1,0 +1,91 @@
+.control {
+    padding-top: 5.4rem;
+}
+
+.control__title {
+    padding-bottom: 1.1rem;
+    padding-right: 4.5rem;
+}
+
+.control__description {
+    @include font (300, 1.8rem, 116.67%);
+    margin-bottom: 5.4rem;
+    text-align: center;
+    padding-right: 4rem;
+}
+
+.control__container {
+    @include dflex-jcsb;
+    flex-direction: row-reverse;
+    padding-right: 12rem;
+}
+
+.control__img {
+    width: 59.8rem;
+    height: 34.9rem;
+    margin-right: 2.4rem;
+    flex-shrink: 1;
+
+    img {
+        object-fit: cover;
+    }
+}
+
+.control__wrapper {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 70rem;
+    row-gap: 3.3rem;
+    padding-top: 0.5rem;
+}
+
+.control__card {
+    width: 19.4rem;
+
+    &:first-child, &:nth-child(2), &:nth-child(3) {
+        .control__header {
+            height: 4.2rem;
+        }
+    }
+
+    &:first-child {
+        margin-right: 6rem;
+    }
+
+    &:nth-child(2) {
+        margin-right: 5.7rem;
+    }
+
+    &:nth-child(4), &:last-child {
+        width: 22rem;
+    }
+
+    &:nth-child(4) {
+        margin-right: 3.2rem;
+    }
+}
+
+.control__numbers {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.control__first {
+    color: #6CAC3D;
+    font-size: 3rem;
+}
+
+.control__secondary {
+    color: #D6D6D6;
+    font-size: 1.6rem;
+}
+
+.control__header {
+    @include font(700, 1.8rem, 116.67%);
+    margin-bottom: 1.1rem;
+}
+
+.control__text {
+    @include font (400, 1.4rem, 116.67%);
+}

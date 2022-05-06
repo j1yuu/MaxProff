@@ -1,0 +1,92 @@
+.masters {
+    background-color: #F8F8F8;
+
+    .container {
+        padding-top: 3.1rem;
+        padding-bottom: 10.9rem;
+    }
+}
+
+.masters__title {
+    padding-bottom: 3.2rem;
+}
+
+.masters__wrapper {
+    height: 45.5rem;
+    position: relative;
+    // align-items: end;
+}
+
+.masters-slide {
+    width: 29.6rem;
+    height: 21.2rem ;
+}
+
+.masters__slider {
+    padding-bottom: 4.4rem;
+    .slick-list {
+        .slick-track {
+            display: flex;
+            align-items: end;
+
+            .slick-slide {
+                transition: all .2s ease;
+                margin-top: 19.9rem;
+                margin-left: .6rem;
+                margin-right: .6rem;
+            }
+
+            .slick-current {
+                margin-top: 0;
+                margin-bottom: 0;
+                width: 58.4rem !important;
+                height: 41.1rem !important;
+            }
+        }
+    }
+}
+
+.masters-arrows {
+    position: absolute;
+    bottom: 12.3rem;
+    width: 133.7rem;
+    @include dflex-jcsb;
+    left: -7.6rem
+}
+
+.mNext, .mPrev {
+    width: 5.4rem;
+    height: 5.4rem;
+}
+
+.masters__about {
+    padding-bottom: 9.3rem;
+    width: 120rem;
+    margin: 0 auto;
+    @include dflex;
+}
+
+.masters__video {
+    width: 58.6rem;
+    height: 29.8rem;
+}
+
+.masters__description {
+    padding: 7.4rem 9.1rem 8.4rem 4.8rem;
+    background-color: #fff;
+}
+
+.masters__ul {
+    width: 33.7rem;
+}
+
+.masters__li {
+    list-style: disc;
+    @include font (400, 1.6rem, 116.67%);
+}
+
+@media (min-width: 48em) {
+    .masters__video {
+        margin-right: 5.7rem;
+    }
+}

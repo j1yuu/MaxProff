@@ -1,0 +1,16 @@
+.button-discounts {
+    width: 20.5rem;
+    @include font (700, 1.8rem, 116.67%);
+    display: block;
+    margin: 0 auto;
+    margin-left: 50.5rem;
+    padding-bottom: 1.1rem;
+}
+
+@media (max-width: 48em) {
+    .button-discounts {
+        margin-left: auto;
+        width: 98%;
+        padding-bottom: 1.4rem;
+    }
+}

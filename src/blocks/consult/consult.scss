@@ -1,0 +1,24 @@
+.consult {
+    background-color: #6CAC3D;
+
+    .container {
+        padding-top: 2.7rem;
+        padding-bottom: 2.9rem;
+        @include dflex-jcsb;
+    }
+}
+
+.consult__header {
+    @include font(500, 2.2rem, 116.67%);
+    color: #fff;
+}
+
+.consult__text {
+    width: 57rem;
+    @include font (500, 1.6rem, 116.67%);
+    color: #fff;
+}
+
+@media (min-width: 48em) {
+
+}

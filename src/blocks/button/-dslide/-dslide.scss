@@ -1,0 +1,10 @@
+.button-dslide {
+    width: 20.5rem;
+    @include font (700, 1.8rem, 116.67%);
+}
+
+@media (max-width: 48em) {
+    .button-dslide {
+        width: 35.5rem;
+    }
+}

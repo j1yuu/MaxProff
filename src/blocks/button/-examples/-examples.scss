@@ -1,0 +1,12 @@
+.button-examples {
+    width: 20.5rem;
+    display: block;
+    @include font (700, 1.8rem, 116.67%);
+    margin: 0 auto;
+}
+
+@media (max-width: 48em) {
+    .button-examples {
+        width: 100%;
+    }
+}

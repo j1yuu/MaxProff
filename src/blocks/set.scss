@@ -4,8 +4,65 @@
     text-align: center;
 }
 
+.dots {
+    display: none;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex !important;
+    
+    li {
+        width: 1.8rem;
+        height: 1.8rem;
+        &:not(:last-child) {
+            margin-right: 0.9rem;
+        }
+
+        div {
+            img:last-child {
+                display: none;
+            }
+        }
+    }
+
+    .slick-active {
+        div {
+            img:first-child {
+                display: none;
+            }
+            img:last-child {
+                display: block;
+            }
+        }
+    }
+}
+
+
+iframe {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.body-active {
+    padding-top: 10rem;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.body-modal {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
 @media (max-width: 48em) {
     .title {
         font-size: 3.6rem;
     }
 }
+

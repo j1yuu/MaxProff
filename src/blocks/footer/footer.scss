@@ -1,0 +1,208 @@
+.footer {
+    background-color: #2E3648;
+}
+
+.footer-upper {
+    .container {
+        padding: 4.6rem 7.2rem 2.9rem 0;
+        display: flex;
+        align-items: start;
+    }
+
+    border-bottom: .1rem solid #CBCBCB;
+}
+
+.footer-upper__lognpay {
+    height: 16rem;
+    @include dflex-jcsb;
+    flex-direction: column;
+}
+
+.footer-upper__logo {
+    width: 12.6rem;
+    height: 4.4rem;
+}
+
+.footer-upper__pay {
+    width: 100%;
+    p {
+        @include font(400, 1.3rem, 116.67%);
+        margin-bottom: 1.1rem;
+        color: #CBCBCB;
+    }
+}
+
+.footer-upper__payment {
+    @include dflex-jcsb;
+    width: 90%;
+}
+
+.footer-upper__bank {
+    &:first-child, &:nth-child(2) {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+    &:nth-child(3) {
+        width: 2.3rem;
+        height: 2.2rem;
+    }
+
+    &:nth-child(4) {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    &:last-child {
+        width: 2.8rem;
+        height: 1.7rem;
+    }
+}
+
+.footer-offers {
+    padding-top: .7rem;
+}
+
+.footer-offers__header {
+    @include font(700, 1.3rem, 116.67%);
+    color: #6CAC3D;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.footer-offers__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-offers__link {
+    @include font(400, 1.3rem, 116.67%);
+    color: #CBCBCB;
+    transition: color .2s;
+
+    &:not(:last-child) {
+        margin-bottom: 0.7rem;
+    }
+}
+
+.footer-nav {
+    padding-top: 0.7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav__item {
+    @include font (700, 1.3rem, 116.67%);
+    color: #fff;
+    text-transform: uppercase;
+
+    &:not(:last-child) {
+        margin-bottom: 1.2rem;
+    }
+}
+
+.footer-contacts {
+    padding-top: .7rem;
+}
+
+.footer-tel, .footer-contacts__item {
+    display: flex;
+}
+
+.footer-tel {
+    margin-bottom: 1.1rem;
+}
+
+.footer-contacts__img {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-right: 0.9rem;
+}
+
+.footer-tel__tel {
+    @include font (700, 1.8rem, 116.67%);
+    margin-bottom: 0.4rem;
+    color: #fff;
+}
+
+.footer-tel__desc {
+    @include font (400, 1.4rem, 116.67%);
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.footer-tel__button {
+    @include font(400, 1.4rem, 116.67%);
+    text-decoration-line: underline;
+    color: #6CAC3D;
+}
+
+.footer-contacts__item {
+    align-items: center;
+    margin-bottom: 0.9rem;
+}
+
+.footer-contacts__text {
+    @include font (400, 1.4rem, 116.67%);
+    color: #fff;
+}
+
+.footer-lower {
+    .container {
+        @include dflex-jcsb;
+        padding-top: 2.4rem;
+        padding-bottom: 3.1rem;
+    }
+}
+
+.footer-info__left {
+    @include font(400, 1.4rem, 116.67%);
+    color: #CBCBCB;
+    margin-right: 0.3rem;
+}
+
+.footer-info__right {
+    @include font(400, 1.4rem, 116.67%);
+    text-decoration: underline;
+    color: #F2f2f2f2;
+}
+
+.footer-socials {
+    @include dflex;
+}
+
+.footer-socials__item {
+    &:not(:last-child) {
+        margin-right: 0.8rem;
+    }
+}
+
+.footer-caustion, .footer-map {
+    color: #CBCBCB;
+    @include font(400, 1.4rem, 116.67%);
+    transition: color .3s;
+}
+
+@media (min-width: 48em) {
+    .footer-offers__link:hover, .footer-map:hover {
+        color: #fff;
+    }
+
+    .footer-upper__logo {
+        margin-left: -0.9rem;
+        margin-top: -1rem;
+    }
+
+    .footer-offers {
+        margin-left: 13.3%;
+    }
+
+    .footer-nav {
+        margin-left: 15%;
+    }
+
+    .footer-contacts {
+        margin-left: 21.2%;
+        margin-top: -0.5rem;
+    }
+}
